@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.Pozadie {
+    position: relative;
+    width: 100%;
+}
+
+.Rozmazane_pozadie {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.Zoznam_futbalistov_tabulka {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.vyhladavanie_sekcia {
+    margin-bottom: 20px;
+}
+
+#vyhladavanie {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+#vyhladavanieButton {
+    padding: 8px 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pridatButton {
+    padding: 8px 16px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Zoznam_futbalistov {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Zoznam_futbalistov th, .Zoznam_futbalistov td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.Zoznam_futbalistov th {
+    background-color: #333;
+    color: white;
+}
+
+.strankovanie {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sipka2 {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+
+.column {
+    margin-top:100px;
+    margin-left:700px;
+    background-color: #efefee;
+    min-height: 300px;
+    max-height: 100%;
+    width: 450px;
+    box-shadow: rgba(0,0,0, 0.1) 0 1px 2px;
+    padding: 20px 35px;
+    overflow-y: auto;
+}
+
+.column img{
+    width:30%;
+}
+
+.column form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+}
+
+.column form input[type="text"],input[type="number"]{
+    padding:10px;
+    font-size: 14px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #dedede;
+}
+
+.column form input[type="submit"] {
+    background-color: #4285f4;
+    color: #fff;
+    height: 36px;
+    width: 88px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.column form label{
+    margin-top: 15px;
+}
+
+.column .header {
+    padding: 20px 0;
+}
+
+.column form select{
+    padding:10px;
+    font-size: 14px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #dedede;
+}
+
+.column h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    padding-top: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.column a img{
+    width:15%;
+}
+
+.delete-button{
+    padding: 15px 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    display: inline;
+}
+
+.delete-button:hover{
+    background-color: red;
+}
+
+.delete-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
